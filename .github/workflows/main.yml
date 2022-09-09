@@ -8,6 +8,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - uses: testomatio/check-tests@stable
+        with:
+          framework: cypress.io
+          tests: cypress/integration/**.js
+          token: ${{ secrets.GITHUB_TOKEN }}
+          comment-on-empty: true
+          has-tests-label: true
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
