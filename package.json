@@ -13,6 +13,7 @@
     "directory": "/"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "@types/enzyme": "^3.10.4",
     "@types/jest": "^27.0.0",
     "@types/node": "^14.0.0",
