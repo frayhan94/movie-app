@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-describe('counter', () => {
+describe('Photo App Basic Functionality', () => {
   beforeEach(() => {
     cy.visit('/')
   })

@@ -13,7 +13,6 @@
     "directory": "/"
   },
   "dependencies": {
-    "classnames": "^2.3.1",
     "@types/enzyme": "^3.10.4",
     "@types/jest": "^27.0.0",
     "@types/node": "^14.0.0",
@@ -25,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "5.9.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.0",
+    "classnames": "^2.3.1",
     "enzyme": "^3.11.0",
     "eslint": "^8.6.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
@@ -90,6 +90,7 @@
     ]
   },
   "devDependencies": {
+    "@cypress/code-coverage": "^3.10.0",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.2",
